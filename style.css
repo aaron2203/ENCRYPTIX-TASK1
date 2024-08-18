@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(Gilroy-SemiBold.woff2);
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-Regular.woff2);
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: Gilroy-SemiBold;
+    font-size: 4em;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.intro img:hover {
+    cursor: pointer;
+}
+.intro p {
+    font-size: 1.2em;
+    font-weight:100;
+    line-height: 1.3em;
+    font-family: Gilroy-SemiBold;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.qualities {
+    background-color: #ececec;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.qualities h2 {
+    text-align: center;
+    font-family: Gilroy-SemiBold;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.qualities ul {
+    list-style-type: none;
+    font-family: Gilroy;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.qualities ul li {
+    background: #fff;
+    font-size: 1.1em;
+    padding: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.qualities ul li strong {
+    font-family: Gilroy-SemiBold;
+    color: #282c34;
+}
+
+.gallery {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.gallery h2 {
+    font-family: Gilroy-SemiBold;
+    font-size: 3.5em;
+    font-weight: 800;
+    text-transform:uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer .heart {
+    color: red;
+}
